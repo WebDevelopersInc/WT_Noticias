@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+* {
+    /* border: 1px solid #000; */
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    position: relative;
+    background-color: #0B28A8;
+    font-size: 40px;
+    top: -8px;
+}
+/* icones */
+.collapse li a{
+    color: aliceblue;
+    margin: 0px 25px;
+   
+    
+}
+.collapse ul{
+    position: relative;
+    float: right;
+    width: 300px;
+}
+.navbar-nav{
+    position:static;
+    width: 300px;
+    margin: 0px 560px ;
+    
+}
+.dropdown-menu li a{
+    color: black;
+}
+.dropdown-menu li{
+    right: 25px;
+    position: relative;
+    font-size: 20px;
+    margin: 0px 19px; 
+    background-color: white;
+    border: 90px;
+}
+
+/* logo */
+.navbar-brand{
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    font-style:oblique;
+    font-size: 40px;
+    top: 9px;
+
+
+}
+.navbar-brand i{
+    position: relative;
+    font-size: 50px;
+    top: -8px;
+    padding: 3px 80px;
+}
+
+/* botão */
+.d-flex button{
+    color: aliceblue;
+    background-color: rgb(71, 81, 226);
+}
+.navbar2{
+    position: relative;
+    background-color: #B5B2B2;
+    top: -20px;
+
+}
+
+.navbar2 ul li {
+    text-align: justify;
+    text-decoration:none;
+    vertical-align: sub;
+    display: inline-block;
+}
+.navbar2 a{
+    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: justify;
+    padding: 0px 40px;
+    font-style: italic;
+    color: #7a7979;
+    transition: 1s ease;
+}.navbar2 a:hover{
+    color: #fff7f7;
+}
