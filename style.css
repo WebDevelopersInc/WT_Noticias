@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:wght@100;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
 * {
     /* border: 1px solid #000; */
@@ -86,4 +88,29 @@
     transition: 1s ease;
 }.navbar2 a:hover{
     color: #fff7f7;
+}
+.titleMain{
+    position: relative;
+    color: #179DE3;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+.titleMain h1{
+    font-size: 65px;
+}
+/* informações iniciais */
+.container1{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+img{
+    position: relative;
+    float: left;
+    width: 700px;
+    
+}
+.container1 i{
+    padding: 0px;
 }
