@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0;
 }
+img {
+    border-radius: 10px;
+}
 .container-fluid{
     position: relative;
     background-color: #0B28A8;
@@ -72,8 +75,7 @@
     vertical-align: sub;
     display: inline-block;
 }
-.navbar2 a{
-    
+.navbar2 a{    
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-align: justify;
@@ -81,7 +83,8 @@
     font-style: italic;
     color: #7a7979;
     transition: 1s ease;
-}.navbar2 a:hover{
+}
+.navbar2 a:hover{
     color: #fff7f7;
 }
 .titleMain{
@@ -93,28 +96,35 @@
 .titleMain h1{
     font-size: 65px;
 }
+
 /* informações iniciais */
 .container1{
     border: 1px solid black;
     width: 80%;
     margin: 0 auto;    
 }
-img{
+.imgMain{
     position: relative;
     float: left;
     width: 700px;
     margin: 10px;
 }
 .propaganda{
-    position: relative;
     border: 1px solid black;
+    position: relative;
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
     height: 100px;
 }
+
 /* slide */
-.carousel{
-    position: relative;
-    width: 70%;
+.carr {
+    border: 3px solid rgb(216, 0, 0);
+    border-radius: 13px;
+    width: 65%;
+    margin: 10px auto;
+}
+.carrImg {
+    height: 298px;
 }
