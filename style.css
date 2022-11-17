@@ -6,8 +6,11 @@
     margin: 0;
     padding: 0;
 }
-img {
-    border-radius: 10px;
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
 }
 .container-fluid{
     position: relative;
@@ -106,7 +109,7 @@ main{
 .container1{
     border: 1px solid black;
     width: 100%;
-    /* margin: 0 auto;    */
+    /* margin: 0 auto;*/
 }
 .imgMain{
     position: relative;
@@ -114,10 +117,18 @@ main{
     width: 700px;
     margin: 10px;
 }
+
+/* PROPAGANDA */
 .propaganda{
-    border: 1px solid black;
     margin: 30px 0;
-    height: 100px;
+}
+.propaganda figure {
+    margin: 0;
+}
+.propaganda img {
+    width: 44%;
+    height: 200px;
+    margin: 20px 5px;
 }
 
 /* slide */
