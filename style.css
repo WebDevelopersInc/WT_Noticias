@@ -115,7 +115,7 @@ main{
     border-radius: 10px;
     position: relative;
     float: left;
-    width: 700px;
+    width: 60%;
     margin: 10px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.151);
 }
