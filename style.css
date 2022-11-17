@@ -102,7 +102,7 @@
 
 /* informações iniciais */
 main{
-    border: 3px solid rgb(0, 3, 160);
+    /* border: 3px solid rgb(0, 3, 160); */
     width: 80%;
     margin: 0 auto;
 }
@@ -138,7 +138,7 @@ main{
     clear: both;
 }
 
-.carousel img {
+.carr img {
     border: 2px solid rgb(216, 0, 0);
     height: 298px;
 }
@@ -157,6 +157,7 @@ main{
 .publicity {    
     border: 1px solid #000;
     width: 28%;
+    padding: 5px;
     float: right;
 }
 .card {
@@ -166,3 +167,15 @@ main{
     height: 200px;
 }
 
+/* PUBLICIDADES Container Dois (2) */
+aside img {
+    width: 100%;
+}
+.box {
+    border: 1px solid #000;
+    width: 100%;
+    margin: 5px 0;
+}
+.box img {
+    height: 200px;
+}
