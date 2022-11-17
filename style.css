@@ -109,8 +109,18 @@ img{
     position: relative;
     float: left;
     width: 700px;
-    
+    margin: 10px;
 }
-.container1 i{
-    padding: 0px;
+.propaganda{
+    position: relative;
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 100px;
+}
+/* slide */
+.carousel{
+    position: relative;
+    width: 70%;
 }
