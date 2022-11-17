@@ -103,7 +103,7 @@ main{
     width: 80%;
     margin: 0 auto;    
 }
-.container{
+.container1{
     border: 1px solid black;
     width: 100%;
     /* margin: 0 auto;    */
@@ -129,4 +129,11 @@ main{
 .carrImg {
     border: 2px solid rgb(216, 0, 0);
     height: 298px;
+}
+
+/* AVISO: CONTAINER DOIS (2) */
+.container2 {
+    border: 1px solid #000;
+    width: 70%;
+    float: left;
 }
