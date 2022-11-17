@@ -112,10 +112,12 @@ main{
     /* margin: 0 auto;*/
 }
 .imgMain{
+    border-radius: 10px;
     position: relative;
     float: left;
     width: 700px;
     margin: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.151);
 }
 
 /* PROPAGANDA */
@@ -140,22 +142,23 @@ main{
 
 .carr img {
     border: 2px solid rgb(216, 0, 0);
+    border-radius: 10px;
     height: 298px;
 }
 
 /* AVISO: CONTAINER DOIS (2) */
 .container2 {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
     /* height: 400px; */
 }
 .container2 main {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 68%;
     float: left;
 }
 .publicity {    
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 28%;
     padding: 5px;
     float: right;
