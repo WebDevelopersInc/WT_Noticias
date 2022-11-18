@@ -14,7 +14,7 @@
     --cor4: #106964;
     --cor5: #0b4d49;
     --cor6: #3a3a3a;
-    --cor7: #c0c0c04b;
+    --cor7: #6c757d;
     --cor8: #555555;
 }
 .floatLeft {
@@ -105,14 +105,12 @@
 
 /* informações iniciais */
 main{
-    /* border: 3px solid rgb(0, 3, 160); */
     width: 80%;
     margin: 0 auto;
 }
 .container1{
     border: 1px solid black;
     width: 100%;
-    /* margin: 0 auto;*/
 }
 .imgMain{
     border-radius: 10px;
@@ -151,17 +149,13 @@ main{
 
 /* AVISO: CONTAINER DOIS (2) */
 .container2 {
-    /* border: 1px solid #000; */
     width: 100%;
-    /* height: 400px; */
 }
 .container2 main {
-    /* border: 1px solid #000; */
     width: 68%;
     float: left;
 }
-.publicity {    
-    /* border: 1px solid #000; */
+.publicity {
     width: 28%;
     padding: 5px;
     float: right;
@@ -185,27 +179,25 @@ aside img {
 .box img {
     height: 200px;
 }
-/* FOOTER */
+
+/* AVISO: FOOTER */
 footer, footer a {
     color: #fff;
     text-align: center;
 }
 .social {
-    /* border: 3px solid rgb(255, 0, 0); */
     background-color: var(--cor6);
     width: 100%;
     height: 180px;
 }
 .h1Footer {
-    /* border: 1px solid #000; */
     display: inline-block;
 }
 .ulFooter {
-    /* border: 1px solid #000; */
     display: inline-block;
 }
+
 .btn_social {
-    /* border: 3px solid rgb(38, 0, 255); */
 	width:30%;
 	float:left;
     margin: 30px 0 0 50px;
@@ -214,8 +206,6 @@ footer, footer a {
 	width:auto; 
 	margin:auto;
     padding: 0;
-	/* float:left;  */
-	/* display:block;  */
 }
 .btn_social ul li  {
 	position:relative; 
@@ -238,8 +228,7 @@ footer, footer a {
 	color:#fff; 
 	transition:.4s;
 }
-.btn_social ul li::before { 
-
+.btn_social ul li::before {
 	transition:0.4s; 
 	position:absolute; 
 	content:''; 
@@ -256,7 +245,6 @@ footer, footer a {
 .btn_social ul li a:hover       { color: var(--cor8); }
 
 .list-inline {
-    /* border: 1px solid #000; */
     width: 60%;
     text-align: left;
     float: right;
@@ -274,4 +262,22 @@ footer, footer a {
 .inf, .inf p {
     background-color: var(--cor8);
     margin: 0;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+    .social {
+        background-color: var(--cor6);
+        width: 100%;
+        height: 445px;
+    }
+    .list-inline {
+        width: 60%;
+        text-align: left;
+        float: right;
+        position: relative;
+        top: -200px;
+    }
+    .inf {
+        background-color: var(--cor8);
+        height: 70px;
+    }
 }
