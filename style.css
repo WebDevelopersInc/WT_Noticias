@@ -14,7 +14,8 @@
     --cor4: #106964;
     --cor5: #0b4d49;
     --cor6: #3a3a3a;
-    --cor7: #c0c0c060;
+    --cor7: #c0c0c04b;
+    --cor8: #555555;
 }
 .floatLeft {
     float: left;
@@ -184,78 +185,37 @@ aside img {
 .box img {
     height: 200px;
 }
-/* footer */
-.footer-basic {
-    padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
-  }
-  
-  .footer-basic ul {
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-  }
-  
-  .footer-basic li {
-    padding:0 10px;
-  }
-  
-  .footer-basic ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-  
-  .footer-basic ul a:hover {
-    opacity:1;
-  }
-  
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  .footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
-  
-  .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:#aaa;
-    margin-bottom:0;
-  }
-/* ======================= */
-  .btn_social {
-	width:100%; 
-	float:left; 
-	display:flex; 
-	margin:auto; 
+/* FOOTER */
+footer, footer a {
+    color: #fff;
+    text-align: center;
+}
+.social {
+    /* border: 3px solid rgb(255, 0, 0); */
+    background-color: var(--cor6);
+    width: 100%;
+    height: 200px;
+}
+.h1Footer {
+    border: 1px solid #000;
+    display: inline-block;
+}
+.ulFooter {
+    border: 1px solid #000;
+    display: inline-block;
+}
+.btn_social {
+    border: 3px solid rgb(38, 0, 255);
+	width:30%;
+	float:left;
+    margin: 30px 0 0 50px;
 }
 .btn_social ul  {
 	width:auto; 
-	margin:auto; 
-	float:left; 
-	display:block; 
+	margin:auto;
+    padding: 0;
+	/* float:left;  */
+	/* display:block;  */
 }
 .btn_social ul li  {
 	position:relative; 
@@ -294,3 +254,10 @@ aside img {
 }
 .btn_social ul li:hover::before { transition:0.4s; top:0%; }
 .btn_social ul li a:hover       { color:#555555; }
+
+.inf {
+    background-color: var(--cor8);
+}
+.inf p {
+    margin: 0;
+}
