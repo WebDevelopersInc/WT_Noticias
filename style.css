@@ -17,6 +17,9 @@
     --cor7: #6c757d;
     --cor8: #555555;
 }
+input {
+    width: 100px;
+}
 .floatLeft {
     float: left;
 }
@@ -58,7 +61,6 @@
 
 /* logo */
 .logo{
-    border: 1px solid #000;
     border-radius: 50%;
     height: 100px;
 }
@@ -178,6 +180,8 @@ aside img {
 }
 .box img {
     height: 200px;
+}
+@media (min-width: 300px) and (max-width: 800px) {
 }
 
 /* AVISO: FOOTER */
