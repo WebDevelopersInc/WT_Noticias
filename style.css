@@ -6,6 +6,16 @@
     margin: 0;
     padding: 0;
 }
+/* PALETA DE CORES */
+:root {
+    --cor1: #24b3ab;
+    --cor2: #1a918b;
+    --cor3: #34d1c9;
+    --cor4: #106964;
+    --cor5: #0b4d49;
+    --cor6: #3a3a3a;
+    --cor7: #c0c0c060;
+}
 .floatLeft {
     float: left;
 }
@@ -14,7 +24,7 @@
 }
 .container-fluid{
     position: relative;
-    background-color: #0B28A8;
+    background-color: var(--cor3);
     font-size: 40px;
     top: -8px;
 }
@@ -46,24 +56,16 @@
 }
 
 /* logo */
-.navbar-brand{
-    position: relative;
-    font-family: 'Press Start 2P', cursive;
-    font-style:oblique;
-    font-size: 40px;
-    top: 9px;
-}
-.navbar-brand i{
-    position: relative;
-    font-size: 50px;
-    top: -8px;
-    padding: 3px 80px;
+.logo{
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 100px;
 }
 
 /* botão segundo navbar */
 .d-flex button{
     color: aliceblue;
-    background-color: rgb(71, 81, 226);
+    background-color: var(--cor4);
 }
 .navbar2{
     position: relative;
@@ -92,7 +94,7 @@
 }
 .titleMain{
     position: relative;
-    color: #179DE3;
+    color: var(--cor2);
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
@@ -242,3 +244,53 @@ aside img {
     color:#aaa;
     margin-bottom:0;
   }
+/* ======================= */
+  .btn_social {
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+}
+.btn_social ul  {
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+.btn_social ul li  {
+	position:relative; 
+	background:#555555; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+.btn_social ul li a  {
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+}
+.btn_social ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#2fcacf; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; }
