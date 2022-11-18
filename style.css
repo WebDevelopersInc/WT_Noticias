@@ -262,12 +262,17 @@ footer, footer a {
 .inf, .inf p {
     background-color: var(--cor8);
     margin: 0;
+    height: 70px;
+    line-height: 70px;
 }
 @media (min-width: 300px) and (max-width: 800px) {
     .social {
         background-color: var(--cor6);
         width: 100%;
         height: 445px;
+    }
+    .none {
+        display: none;
     }
     .list-inline {
         width: 60%;
@@ -279,5 +284,6 @@ footer, footer a {
     .inf {
         background-color: var(--cor8);
         height: 70px;
+        line-height: 70px;
     }
 }
