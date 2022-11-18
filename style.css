@@ -143,12 +143,6 @@ main{
     clear: both;
 }
 
-.carr img {
-    border: 2px solid rgb(216, 0, 0);
-    border-radius: 10px;
-    height: 298px;
-}
-
 /* AVISO: CONTAINER DOIS (2) */
 .container2 {
     width: 100%;
@@ -180,8 +174,6 @@ aside img {
 }
 .box img {
     height: 200px;
-}
-@media (min-width: 300px) and (max-width: 800px) {
 }
 
 /* AVISO: FOOTER */
