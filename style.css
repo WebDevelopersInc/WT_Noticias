@@ -330,10 +330,11 @@ footer, footer a {
         left: 5%;
     }
     .btn_social{
-        position: relative;
-        align-items: center; 
-        left: 10%;
+        /* position: relative; */
+        /* display: inline-block; */
+        
         width: 300px;
+
         
     }
 }
