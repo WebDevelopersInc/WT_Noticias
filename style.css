@@ -329,4 +329,11 @@ footer, footer a {
         position: relative;
         left: 5%;
     }
+    .btn_social{
+        position: relative;
+        align-items: center; 
+        left: 10%;
+        width: 300px;
+        
+    }
 }
