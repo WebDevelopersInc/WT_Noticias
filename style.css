@@ -282,4 +282,43 @@ footer, footer a {
         height: 70px;
         line-height: 70px;
     }
+    .container1{
+        border: none;
+    }
+    .imgMain{
+        right: 15px;
+        width: 110%;
+        margin: 0;
+    }
+    .noticia1{
+        padding-top: 200px;
+        width: 320px;
+    }
+    .publicity{
+        display: flex;
+        width: 200px;
+        margin: 20px;
+        display:none;
+        
+        
+        
+    }
+    .publicity .box{
+        position: relative;
+        
+        /* padding: 20px; */
+        height: 20px;
+        border: none;
+        
+    }
+    .container2 .cards{
+        display: flex;
+        
+    }
+    .col{
+        position: relative;
+        width: 340px;
+        display: flex;
+        right: 10px;
+    }
 }
