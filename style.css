@@ -303,6 +303,7 @@ footer, footer a {
         
         
     }
+    /* propaganda */
     .publicity .box{
         position: relative;
         
@@ -311,14 +312,21 @@ footer, footer a {
         border: none;
         
     }
-    .container2 .cards{
-        display: flex;
-        
-    }
+   
     .col{
         position: relative;
         width: 340px;
         display: flex;
         right: 10px;
+    }
+
+    .container2 .cards{
+        display: flex;
+        
+        align-items: center;
+    }
+    .container2 .card{
+        position: relative;
+        left: 10%;
     }
 }
