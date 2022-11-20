@@ -266,18 +266,11 @@ footer, footer a {
     line-height: 70px;
 }
 
-
-
-
-
 /* css das paginas secundarias */
 .noticia img{
     position:relative;
-    width: 1000vh;
+    width: 100%;
     float: left;
-    
-    
-
 }
 .noticia{
     position: relative;
@@ -285,19 +278,14 @@ footer, footer a {
 }
 .noticia .pg2{
     position: relative;
-    display: flex;
-    
+    display: flex;    
 }
+
 .prop{
     border: 1px solid black;
     margin: 20px 0px;
     height: 20vh;
-
 }
-
-
-
-
 
 @media (min-width: 300px) and (max-width: 600px) {
     .social {
@@ -362,34 +350,21 @@ footer, footer a {
     }
     .col .card{
         margin: 0px;
-        position: relative;
-        
+        position: relative;        
         max-height: 200vh;
         width: 147%;
-        
-        
-
     }
     body .col{
         position: relative;
         align-items: center;
     }
-         
-    
-
-    /* .container2 .cards{
-        display: flex;
-        
-        align-items: center;
+    .container2 img {
+        border: 3px solid var(--cor4);
+        width: 100%;
     }
-    .container2 .card{
-        position: relative;
-        left: 5%;
-    /* } */
-    .btn_social{ 
-       
-        width: 300px;
-
-        
+    .container2 p {
+        margin: 30px 0 50px;
+        text-align: justify;
+        text-indent: 20px;
     }
 }
