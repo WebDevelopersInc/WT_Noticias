@@ -265,6 +265,40 @@ footer, footer a {
     height: 70px;
     line-height: 70px;
 }
+
+
+
+
+
+/* css das paginas secundarias */
+.noticia img{
+    position:relative;
+    width: 1000vh;
+    float: left;
+    
+    
+
+}
+.noticia{
+    position: relative;
+    text-align: left;
+}
+.noticia .pg2{
+    position: relative;
+    display: flex;
+    
+}
+.prop{
+    border: 1px solid black;
+    margin: 20px 0px;
+    height: 20vh;
+
+}
+
+
+
+
+
 @media (min-width: 300px) and (max-width: 600px) {
     .social {
         background-color: var(--cor6);
