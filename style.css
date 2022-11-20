@@ -5,6 +5,7 @@
     /* border: 1px solid #000; */
     margin: 0;
     padding: 0;
+    
 }
 /* PALETA DE CORES */
 :root {
@@ -16,6 +17,9 @@
     --cor6: #3a3a3a;
     --cor7: #6c757d;
     --cor8: #555555;
+}
+body{
+    background-color: #eaf2f7;
 }
 input {
     width: 100px;
@@ -261,7 +265,7 @@ footer, footer a {
     height: 70px;
     line-height: 70px;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 600px) {
     .social {
         background-color: var(--cor6);
         width: 100%;
@@ -314,13 +318,32 @@ footer, footer a {
     }
    
     .col{
-        position: relative;
+       position:relative;
+       align-items: center;
+        /* position: relative;
         width: 340px;
         display: flex;
         right: 10px;
+        align-items: center; */
     }
+    .col .card{
+        margin: 0px;
+        position: relative;
+        
+        max-height: 200vh;
+        width: 147%;
+        
+        
 
-    .container2 .cards{
+    }
+    body .col{
+        position: relative;
+        align-items: center;
+    }
+         
+    
+
+    /* .container2 .cards{
         display: flex;
         
         align-items: center;
@@ -328,8 +351,8 @@ footer, footer a {
     .container2 .card{
         position: relative;
         left: 5%;
-    }
-    .btn_social{
+    /* } */
+    .btn_social{ 
        
         width: 300px;
 
