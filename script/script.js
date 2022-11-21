@@ -48,16 +48,33 @@ function searchFunction() {
 	let input = document.getElementById('myInput').value;
 	input = input.toLowerCase();
 	let h2 = document.getElementsByClassName('h2');
-	let p = document.getElementsByClassName('p');
+	let card = document.getElementsByClassName('card');
+
+	let container1 = document.getElementById('container1');
+	let propaganda = document.getElementById('propaganda');
+	let carr = document.getElementById('carr');
+	let h1 = document.getElementById('NA');
 	
-	for (i = 0; i < p.length; i++) {
-		if (!p[i].innerHTML.toLowerCase().includes(input)) {
-			p[i].style.display="none";
+	for (i = 0; i < h2.length; i++) {
+		if (!h2[i].innerText.toLowerCase().includes(input)) {
+			h2[i].style.display="none";
+			card[i].style.display="none";
+
+			container1.style.display="none";
+			propaganda.style.display="none";
+			carr.style.display="none";
+
+      if (!h2) {
+        h1.style.display="";
+      }
 		}
 		else {
-      p[i].classList.add = 'pScript';
-			p[i].style.display="";
-			// p[i].style.display="list-item";
+			h2[i].style.display="";
+			card[i].style.display="";
+
+			container1.style.display="";
+			propaganda.style.display="";
+			carr.style.display="";
 		}
 	}
 }
