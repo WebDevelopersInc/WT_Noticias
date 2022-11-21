@@ -22,7 +22,7 @@ body{
     background-color: #eaf2f7;
 }
 input {
-    width: 100px;
+    width: 100%;
 }
 .floatLeft {
     float: left;
@@ -303,6 +303,9 @@ footer, footer a {
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
+    input {
+        width: 185px;
+    }
     .social {
         background-color: var(--cor6);
         width: 100%;

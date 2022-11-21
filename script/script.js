@@ -45,15 +45,17 @@ function progress() {
 
 // SEARCH
 function searchFunction() {
-  let input, filter, h2, container, i, txtValue;
-
-  input = document.getElementById("myInput");
-  container = document.querySelector('.container2');
-  h2 = document.getElementsByTagName("h2");
-
-  filter = input.value.toUpperCase();
-  
-  for(i = 0; i < h2.length; i++) {
-    a
-  }
+	let input = document.getElementById('myInput').value;
+	input = input.toLowerCase();
+	let h2 = document.getElementsByClassName('h2');
+	
+	for (i = 0; i < h2.length; i++) {
+		if (!h2[i].innerHTML.toLowerCase().includes(input)) {
+			h2[i].style.display="none";
+		}
+		else {
+			h2[i].style.display="";
+			// h2[i].style.display="list-item";
+		}
+	}
 }
