@@ -146,6 +146,9 @@ main{
     margin: 10px auto;
     clear: both;
 }
+.card h2 {
+    color: var(--cor4);
+}
 
 /* AVISO: CONTAINER DOIS (2) */
 .container2 {

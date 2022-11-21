@@ -44,6 +44,9 @@ function progress() {
 }
 
 // SEARCH
+// MICHOLAS E THIEGO, PARA USÁ-LO, BASTA COLOCAR A CLASSE class="h2" EM UM ELEMENTO (OU TAG) H2!
+// E TAMBÉM COLOCAR O SEGUINTE NO input DO HTML: <input id="myInput" oninput="searchFunction()">
+// É SÓ, DIVIRTAM-SE ;3
 function searchFunction() {
 	let input = document.getElementById('myInput').value;
 	input = input.toLowerCase();
@@ -53,7 +56,11 @@ function searchFunction() {
 	let container1 = document.getElementById('container1');
 	let propaganda = document.getElementById('propaganda');
 	let carr = document.getElementById('carr');
-	let h1 = document.getElementById('NA');
+
+	// let h1 = document.getElementById('NA'); DEPOIS RESOLVO ISSO!
+  // if (input ==! h2.value) {
+  //   h1.style.display="";
+  // }
 	
 	for (i = 0; i < h2.length; i++) {
 		if (!h2[i].innerText.toLowerCase().includes(input)) {
@@ -63,10 +70,6 @@ function searchFunction() {
 			container1.style.display="none";
 			propaganda.style.display="none";
 			carr.style.display="none";
-
-      if (!h2) {
-        h1.style.display="";
-      }
 		}
 		else {
 			h2[i].style.display="";
