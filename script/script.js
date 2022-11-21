@@ -42,3 +42,18 @@ function progress() {
     currentMainPost.classList.remove("main-post--not-active");
   }
 }
+
+// SEARCH
+function searchFunction() {
+  let input, filter, h2, container, i, txtValue;
+
+  input = document.getElementById("myInput");
+  container = document.querySelector('.container2');
+  h2 = document.getElementsByTagName("h2");
+
+  filter = input.value.toUpperCase();
+  
+  for(i = 0; i < h2.length; i++) {
+    a
+  }
+}
