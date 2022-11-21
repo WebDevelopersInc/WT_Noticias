@@ -48,14 +48,16 @@ function searchFunction() {
 	let input = document.getElementById('myInput').value;
 	input = input.toLowerCase();
 	let h2 = document.getElementsByClassName('h2');
+	let p = document.getElementsByClassName('p');
 	
-	for (i = 0; i < h2.length; i++) {
-		if (!h2[i].innerHTML.toLowerCase().includes(input)) {
-			h2[i].style.display="none";
+	for (i = 0; i < p.length; i++) {
+		if (!p[i].innerHTML.toLowerCase().includes(input)) {
+			p[i].style.display="none";
 		}
 		else {
-			h2[i].style.display="";
-			// h2[i].style.display="list-item";
+      p[i].classList.add = 'pScript';
+			p[i].style.display="";
+			// p[i].style.display="list-item";
 		}
 	}
 }

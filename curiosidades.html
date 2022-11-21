@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/slide.css">
     <script src="https://kit.fontawesome.com/4bfcba776f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>        
         <nav class="navbar navbar-expand-lg bg-light">
@@ -27,7 +28,7 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"><p><i class="fa-solid fa-circle-user">@Wt-web</i></p></a></li>
+                                <li><a class="dropdown-item" href="#"><p class="p"><i class="fa-solid fa-circle-user">@Wt-web</i></p></a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Contate-nos para mais...</a></li>
                             </ul>
@@ -57,7 +58,7 @@
                         
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input id="myInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" onkeyup="searchFunction()">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>                    
                 </div>
@@ -91,6 +92,9 @@
     <!-- <marquee width="100%" direction="left" height="20px">
         Briefing faz prévia do GP de Abu Dhabi e traz últimas informações antes da largada!
     </marquee > -->
+
+    <!-- <label for="myInput">Search:</label>
+    <input id="myInput" type="text" onkeyup="searchFunction()"> -->
 
     <main>
         <!-- =====================TEMA INICIAL DA PAGINA============================= -->
@@ -215,7 +219,7 @@
                         <header class="post__header">
                             <!-- =====================NOTICIA DO SLIDE============================= -->
                             <span class="post__tag">News</span>
-                            <p class="post__published">20 Outubro 2022</p>
+                            <p class="p post__published">20 Outubro 2022</p>
                         </header>
                         <h2 class="post__title">Juntou-se a Big Hit Entertainment após participar das
                             audições do Superstar K3,[13] sendo escalado em 2011 nas audições
@@ -229,7 +233,7 @@
                         <header class="post__header">
                             <!-- =====================NOTICIA DO SLIDE============================= -->
                             <span class="post__tag">Video</span>
-                            <p class="post__published">20 Outubro 2022</p>
+                            <p class="p post__published">20 Outubro 2022</p>
                         </header>
                         <h2 class="post__title">Fez sua estreia como membro do grupo
                             BTS (também conhecido como Bangtan Boys) com o lançamento do single álbum 2 Cool 4
@@ -243,7 +247,7 @@
                         <header class="post__header">
                             <!-- =====================NOTICIA DO SLIDE============================= -->
                             <span class="post__tag">News</span>
-                            <p class="post__published">20 Outubro 2022</p>
+                            <p class="p post__published">20 Outubro 2022</p>
                         </header>
                         
                         <h2 class="post__title">Ele cantou e dançou ao lado de bailarinos a música
@@ -330,25 +334,24 @@
 
         <section class="container2">
             <h2>Caçula da banda de K-pop investe na carreira solo aos 25 anos, durante o hiato do grupo.
-                Ele recebeu críticas ao aceitar convite para cantar no Qatar
             </h2>
 
             <figure>
                 <img src="./images-Curiosidades/Jung-Kook-cantando.jpg" alt="">
             </figure>
 
-            <p>Jung Kook, cantor do BTS, foi a principal atração musical da cerimônia de abertura da Copa do Mundo
+            <p class="p">Jung Kook, cantor do BTS, foi a principal atração musical da cerimônia de abertura da Copa do Mundo
                 2022. O evento acontece neste domingo, no estádio Al Bayt, antes do duelo entre Qatar e Equador.
                 Abaixo, o LANCE! apresenta a história do cantor sul-coreano.
             </p>
 
-            <p>
+            <p class="p">
                 Aos 25 anos de idade, Jung Kook é o membro mais novo entre os sete cantores do BTS - grupo mais
                 famoso do k-pop (ou "maknae", como se denominam os membros mais novos nas bandas de pop coreano).
                 Como caçula, ele se destaca por ter uma marca despojada, urbana e estilosa.
             </p>
 
-            <p>
+            <p class="p">
                 O grupo BTS, no entanto, anunciou uma pausa para que os músicos focassem nas carreiras
                 solo. Nesta nova empreitada, Jung Kook já emplacou um grande sucesso: "Left and right",
                 em parceria com o cantor americano Charlie Puth, que chegou ao 22º lugar na parada dos
@@ -356,15 +359,15 @@
             </p>
 
             <figure>
-                <img src="./images-Curiosidades/Jung-Kook-fotos.jpg" alt="">
+                <img class="p" src="./images-Curiosidades/Jung-Kook-fotos.jpg" alt="">
             </figure>
 
-            <p>
+            <p class="p">
                 Na cerimônia de abertura, o cantor sul-coreano apresentou uma música inédita, chamada
                 "Dreamers". A canção faz parte da trilha sonora oficial da Copa do Mundo 2022.
             </p>
 
-            <p>
+            <p class="p">
                 A presença de Jung Kook na cerimônia de abertura da Copa dividiu as fãs. O motivo são as denúncias
                 de violação os direitos humanos no Qatar, país-sede do torneio. Outros cantores, como Shakira e
                 Dua Lipa, estavam sendo cogitadas no evento, mas se posicionaram de forma contrária ao país do
@@ -396,7 +399,7 @@
         </div>
 
         <div class="inf">
-            <p>&copy; 2022 WT-Services.com.br, Inc. ou suas afiliadas</p>
+            <p class="p">&copy; 2022 WT-Services.com.br, Inc. ou suas afiliadas</p>
         </div>
     </footer>
 
