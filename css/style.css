@@ -289,6 +289,11 @@ footer, footer a {
 .noticia .pg2{
     position: relative;
     display: flex;    
+    
+}
+.pg2 img{
+    position: relative;
+    width: 70vh;
 }
 
 .prop{
