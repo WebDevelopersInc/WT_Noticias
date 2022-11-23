@@ -390,6 +390,13 @@ footer, footer a {
         text-align: justify;
         text-indent: 20px;
     }
+    .pg2 img{
+        position: relative;
+        width: 45vh;
+        height: 30vh;
+        align-content: flex-end;
+    }
+  
 }
 @media screen and (min-width: 768px) {
     .social {
@@ -417,4 +424,5 @@ footer, footer a {
     .ulFooter {
         display: inline-block;
     }
+    
 }
